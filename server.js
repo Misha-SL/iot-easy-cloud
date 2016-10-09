@@ -10,6 +10,6 @@ const app = express();
 app.use("/api", apiHandlers);
 app.use("/", pagesHandlers);
 
-app.listen(8080, () =>{
-  console.log("http://localhost:8080/")
+app.listen(80, () =>{
+  console.log("http://localhost:80/")
 });
