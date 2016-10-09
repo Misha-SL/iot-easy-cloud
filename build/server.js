@@ -23,6 +23,6 @@ var app = (0, _express2.default)();
 app.use("/api", _index2.default);
 app.use("/", _index4.default);
 
-app.listen(8080, function () {
-  console.log("http://localhost:8080/");
+app.listen(80, function () {
+  console.log("http://localhost:80/");
 });
